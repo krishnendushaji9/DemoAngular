@@ -1,0 +1,19 @@
+<h2>Details Details</h2>
+<hr/>
+<div *ngIf="asset">
+    <div>
+        <label><b>Asset Name:</b></label>{{asset.adName}}
+    </div>
+    <div>
+        <label><b>Asset Type:</b></label>{{asset.adType}}
+    </div>
+    <div>
+        <label><b>Asset Class:</b></label>{{asset.adClass}}
+    </div>
+    
+</div>
+
+<br>
+<br>
+<button (click)="list()" class ="btn btn-primary">Back to Asset List</button>
+<br>
