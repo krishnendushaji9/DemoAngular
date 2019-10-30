@@ -45,11 +45,11 @@ body {
   margin-right: auto;
   margin-left: auto;
   border: 12px solid transparent;
-  border-bottom-color: #28d;
+  border-bottom-color: #3CBC8D;
 }
 
 .login-header {
-  background: #28d;
+  background: #3CBC8D;
   padding: 20px;
   font-size: 1.4em;
   font-weight: normal;
@@ -80,7 +80,7 @@ body {
   font-size: 0.95em;
 }
 
-.login input[type="email"],
+.login input[type="text"],
 .login input[type="password"] {
   background: #fff;
   border-color: #bbb;
@@ -88,27 +88,27 @@ body {
 }
 
 /* Text fields' focus effect */
-.login input[type="email"]:focus,
+.login input[type="text"]:focus,
 .login input[type="password"]:focus {
   border-color: #888;
 }
 
 .login input[type="submit"] {
-  background: #28d;
+  background: #3CBC8D;
   border-color: transparent;
   color: #fff;
   cursor: pointer;
 }
 
 .login input[type="submit"]:hover {
-  background: #17c;
+  background: rgb(148, 236, 210);
 }
 
 /* Buttons' focus effect */
 .login input[type="submit"]:focus {
-  border-color: #05a;
+  border-color: rgb(88, 168, 148);
 }
-.has-error input[type="email"],
+.has-error input[type="text"],
 .has-error input[type="password"] {
     border-color: rgb(216, 12, 12);
     color: rgb(230, 14, 14);
